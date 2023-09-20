@@ -79,15 +79,16 @@ $query = mysqli_query($conect , $sql);
                 <th><?= $row['fecha'] ?></th>
 
                 <th><a href="update.php?id=<?= $row['id'] ?>" class="users-table--edit">Editar</a></th>
-                <th><a href="delete_producto.php?id=<?= $row['id'] ?>" class="users-table--edit">Eliminar</a></th>                 
+                <th><a href="delete_producto.php?id=<?= $row['id'] ?>" class="users-table--edit">Eliminar</a></th>             
                 </tr>  
                 <?php 
                 //Finalizamos el ciclo While
                 endwhile;
-                ?>       
-                   
+                ?>                          
             </tbody>
         </table>
+        <br>
+        <a href="venta.php" class="users-table--edit">Venta De Producto</a>
     </div>
     <br/>
 </body>
