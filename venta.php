@@ -18,7 +18,7 @@ $conect = connection();
     <div class="users-form">
         <form action="venta_producto.php" method ="POST">
             <h1> Venta De Producto </h1>
-            <!-- Reasignamos todos los datos para que solo se actualice lo que se desea modificar --> 
+            <!-- Solicitamos los input solo de los datos deseados --> 
             <input type="text" name="id" placeholder="ID Producto">
             <input type="text" name="stock" placeholder="Cantidad a vender">
 
